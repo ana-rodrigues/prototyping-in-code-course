@@ -37,7 +37,10 @@ O curso de curta-duração proposto guia os participantes através de um ciclo d
 
 | Módulo | Título | Duração | Descrição | Objectivos |
 |--------|-------|----------|----------------|---------------------|
-| 0 | Título do módulo | 0 min | Descrição curta do tema | Objectivos |
+| 0 | Introdução ao curso | 15 min | Descrição breve da estrutura, metodologia e objectivos do curso | Gerir expectativas da audiência e guiar na escolha de um projecto, caso os alunos pretendam fazer a componente prática em paralelo |
+| 1 | Ferramentas de IA para prototipagem em código | 20 min | Caracterização de diferentes ferramentas para prototipagem assistida por AI relativamente a barreiras de entrada, limitações e controlo sobre o output | Comunicar a gama de opções disponíveis e como podem testar cada uma delas; contextualizar as vantagens de ganhar confiança com fundamentos e conceitos de desenvolvimento, independentemente da ferramenta usada.
+| 2 | Práticas de prompting | 30 min | Introdução a práticas de prompting eficazes e demonstração com componente simples usando uma ferramenta low-code
+
 
 
 # Riscos e potenciais soluções
@@ -48,3 +51,12 @@ O curso de curta-duração proposto guia os participantes através de um ciclo d
 | **Custos com ferramentas** | Tirar partido de periodos de teste e software e APIs de acesso aberto |
 | **Taxa de abandono** | Garantir que as técnicas demonstradas permitem aos alunos progredir com confiança, especialmente nos primeiros módulos |
 | **Frustração com erros técnicos** | Normalizar erros e iterações como parte do processo, especialmente quando se trata de ferramentas IA, e manter cenários de erro e resolução nas demonstrações gravadas |
+
+
+# Referências
+
+[Beyond Vibe Coding](https://www.ericli.io/writing/beyond-vibe-coding)
+
+[Prompting Guide Techniques](https://www.promptingguide.ai/techniques)
+
+[Weaviate Academy Learning Paths](https://academy.weaviate.io/paths)
