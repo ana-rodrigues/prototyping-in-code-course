@@ -1,52 +1,10 @@
 [
   {
-    "objectID": "research/notes.html",
-    "href": "research/notes.html",
-    "title": "Design Artifacts Course",
-    "section": "",
-    "text": "Design Artifacts is a genealogy of the growing range of artifacts at the disposal of digital interface designers today - from the simplicity of hand-drawn sketches to AI-assisted prototypes - and how each of them can be leveraged to support the software development process. During this course, we’ll expore how different artifacts facilitate ideation and the communication of ideas and concepts as approximations to the final product.\n\n\n\n\nAn historical perspective to the evolution of design artifacts in digital interface design. We apply a taxonomy to artifacts based on their level of fidelity and control.\n\n\n\nThe most bare-bones artifact in design - the drawing, the gesture and the creative process. Whether on paper or digital form, hand-drawn sketches offer a low barrier to generating a large number of ideas and concepts.\n\n\n\nPerhaps the most malleable means to structure concepts and data structures, supporting abstraction and systems thinking. Explore AI-assisted tools to move from sketching maps, to generating charts in vector and programmatic form.\n\n\n\nBorrowed from software engineering’s Architecture Decision Records (ADR), these capture why you and the team made specific design choices and trade-offs, articulating your strategic thinking. They create organisational memory and offer valuable context for future design decisions and iterations.\n\n\n\nThe last decade saw the proliferation of tools for creating high-fidelity mockups within a multi-player environment, usually in the form of a spatial interface of the infinite canvas. Offering familiar tools to create high fidelity artifacts, they resonated with designers in a shofting industry, where interface designers became a job in high demand. Whilst Figma became the de facto standard for this type of artifact, we will also become familiar with some of its competitors, incluidng open source alternatives.\n\n\n\nWhile Figma Design offers the highest control for designers to develop high-fidelity mocks, it remains a vector-based design tool. the Explore how the evolving tools available for AI-assisted prototyping can be used to validate concepts and to refine experience details hand-in-hand with the development teams.\nAI-assisted tools and practices:\n\nA comparative analysis of current tools (Figma Make, Lovable, Irvin, v0, Replit, Windsurf, Cursor, Claude Code)\nMCP and context strategies\nPrompt libraries and repositories (???)\nVersion control: Git basics (???)\n\nBy stage of the design process:\n\nAs a ideation tool\nAs a validation tool\nAs a craft tool\n\nApplications:\n\nPrototyping complex input (search, drawing)\nHandling complex mock-data (tables, sorting and filtering)\nPrototyping states, data fetching and transitions\nCreating expressive animations"
-  },
-  {
-    "objectID": "research/notes.html#introduction",
-    "href": "research/notes.html#introduction",
-    "title": "Design Artifacts Course",
-    "section": "",
-    "text": "Design Artifacts is a genealogy of the growing range of artifacts at the disposal of digital interface designers today - from the simplicity of hand-drawn sketches to AI-assisted prototypes - and how each of them can be leveraged to support the software development process. During this course, we’ll expore how different artifacts facilitate ideation and the communication of ideas and concepts as approximations to the final product.\n\n\n\n\nAn historical perspective to the evolution of design artifacts in digital interface design. We apply a taxonomy to artifacts based on their level of fidelity and control.\n\n\n\nThe most bare-bones artifact in design - the drawing, the gesture and the creative process. Whether on paper or digital form, hand-drawn sketches offer a low barrier to generating a large number of ideas and concepts.\n\n\n\nPerhaps the most malleable means to structure concepts and data structures, supporting abstraction and systems thinking. Explore AI-assisted tools to move from sketching maps, to generating charts in vector and programmatic form.\n\n\n\nBorrowed from software engineering’s Architecture Decision Records (ADR), these capture why you and the team made specific design choices and trade-offs, articulating your strategic thinking. They create organisational memory and offer valuable context for future design decisions and iterations.\n\n\n\nThe last decade saw the proliferation of tools for creating high-fidelity mockups within a multi-player environment, usually in the form of a spatial interface of the infinite canvas. Offering familiar tools to create high fidelity artifacts, they resonated with designers in a shofting industry, where interface designers became a job in high demand. Whilst Figma became the de facto standard for this type of artifact, we will also become familiar with some of its competitors, incluidng open source alternatives.\n\n\n\nWhile Figma Design offers the highest control for designers to develop high-fidelity mocks, it remains a vector-based design tool. the Explore how the evolving tools available for AI-assisted prototyping can be used to validate concepts and to refine experience details hand-in-hand with the development teams.\nAI-assisted tools and practices:\n\nA comparative analysis of current tools (Figma Make, Lovable, Irvin, v0, Replit, Windsurf, Cursor, Claude Code)\nMCP and context strategies\nPrompt libraries and repositories (???)\nVersion control: Git basics (???)\n\nBy stage of the design process:\n\nAs a ideation tool\nAs a validation tool\nAs a craft tool\n\nApplications:\n\nPrototyping complex input (search, drawing)\nHandling complex mock-data (tables, sorting and filtering)\nPrototyping states, data fetching and transitions\nCreating expressive animations"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Prototipagem assistida por AI para designers",
     "section": "",
     "text": "As ferramentas de desenvolvimento assistido por inteligência artificial vêm a desafiar os limites do que é possível alcanaçar para não-programadores com mero recurso a linguagem natural.\nDiferentes tipos de ferrmentas oferecem graus variáveis de controlo sobre o resultado gerado - desde ferramentas low to no-code à geração assistida de código no contexto do Ambiente de Desenvolvimento Integrado - no inglês Integrated Development Environment (IDE) - ou simplesmente através do terminal. Estas propõem níveis distintos de abstração entre a simplicidade de uso e a proximidade com o aspecto mais material do software - o código.\nEnquanto que algumas destas ferramentas colocam poucas barreiras de entrada, outras podem exigir um conhecimento prévio de programação. Para designers com contacto limitado com o contexto de desenvolvimento, esta distância pode representar um desafio significativo.\n\n\nEste curso de curta-duração propõe a designers de produto digital desenvolver competências em prototipagem em código com recurso a ferramentas de inteligência artificial, com um foco na maior proximidade com o aspecto material do seu trabalho - o código em si.\n\n\n\nDesigners de produto digital proficientes em concepção de interfaces gráficas, que procurem tornar-se mais confortáveis com prototipagem assistida por IA utilizando o ambiente de desenvolvimento integrado Cursor."
-  },
-  {
-    "objectID": "index.html#introduction",
-    "href": "index.html#introduction",
-    "title": "AI-assisted prototyping for designers",
-    "section": "",
-    "text": "Empower designers to build functional, interactive prototypes independently using AI-assisted coding, removing barriers between design intention and working software."
-  },
-  {
-    "objectID": "index.html#introdução",
-    "href": "index.html#introdução",
-    "title": "Prototipage assistida por AI para designers",
-    "section": "",
-    "text": "Proposes a short video designers to build functional, interactive prototypes independently using AI-assisted coding, removing barriers between design intention and working software."
-  },
-  {
-    "objectID": "index.html#proposta",
-    "href": "index.html#proposta",
-    "title": "Prototipagem assistida por AI para designers",
-    "section": "",
-    "text": "Este curso de curta-duração propõe a designers de produto digital desenvolver competências em prototipagem em código com recurso a ferramentas de inteligência artificial, com um foco na maior proximidade com o código e a materialidade do produto final; o curso é desenhado de forma a explorar técnicas de prototipagem com IA, ao mesmo tempo que introduz conceitos base de desenvolvimento de software que permitam a eficaz integração, colaboração e resolução de problemas com esta classe de protótipos funcionais."
-  },
-  {
-    "objectID": "index.html#público-alvo",
-    "href": "index.html#público-alvo",
-    "title": "Prototipagem assistida por AI para designers",
-    "section": "",
-    "text": "Designers de produto digital proficientes em concepção de interfaces gráficas, que procurem tornar-se mais confortáveis com prototipagem assistida por IA utilizando o ambiente de desenvolvimento integrado Cursor."
   },
   {
     "objectID": "index.html#proposta-pedagógica",
@@ -56,18 +14,25 @@
     "text": "Este curso de curta-duração propõe a designers de produto digital desenvolver competências em prototipagem em código com recurso a ferramentas de inteligência artificial, com um foco na maior proximidade com o aspecto material do seu trabalho - o código em si."
   },
   {
+    "objectID": "index.html#público-alvo",
+    "href": "index.html#público-alvo",
+    "title": "Prototipagem assistida por AI para designers",
+    "section": "",
+    "text": "Designers de produto digital proficientes em concepção de interfaces gráficas, que procurem tornar-se mais confortáveis com prototipagem assistida por IA utilizando o ambiente de desenvolvimento integrado Cursor."
+  },
+  {
+    "objectID": "index.html#porquê-a-escolha-do-formato-vídeo-on-demand",
+    "href": "index.html#porquê-a-escolha-do-formato-vídeo-on-demand",
+    "title": "Prototipagem assistida por AI para designers",
+    "section": "Porquê a escolha do formato vídeo on demand",
+    "text": "Porquê a escolha do formato vídeo on demand\nEste é um curso particularmente denso e virado para o desenvolvimento de confiança com novas ferramentas e conceitos. Desta forma, beneficia de ser acompanhado ao ritmo da preferência dos alunos e dando-lhes a possibilidade de rever os conteúdos várias vezes, caso considerem necessário.\nO formato webinar é adequado para porções específicas deste curso. Os módulos que oferecem bons candidatos a estes formatos são acompanhados da tag Compatível com webinar individual."
+  },
+  {
     "objectID": "index.html#princípios-metodológicos",
     "href": "index.html#princípios-metodológicos",
     "title": "Prototipagem assistida por AI para designers",
     "section": "Princípios metodológicos",
     "text": "Princípios metodológicos\n\nAbordagem prática - os estudantes constroem conhecimento ao aplicar as componentes teóricas do desenvolvimento de um projecto tangível. As sessões expositivas são acompanhadas de exemplos de aplicação dos conceitos aprendidos, motivando a progressão no projecto escolhido.\nAprendizagem progressiva e cumulativa - a complexidade dos conceitos e das tarefas de projecto aumenta progressivamente ao longo do curso, permitindo aos alunos construir confiança e conhecimento de forma gradual e cumulativa.\nMultimodalidade e carga cognitiva - cada módulo combina elementos exposição verbal, com elementos visuais e demonstrações práticas através da partilha de ecrã.\nDesenvolvimento de confiança - o curso visa primeiramente ultrapassar as barreiras de entrada à prototipagem em código para designers menos familiares com este contexto. Por isso, parte-se de ferramentas e modelos mentais que lhe serão familiares e gradualmente se avança para novos conceitos e ferramentas.\nTransferência de conhecimento - os conceitos e técnicas aprendidos durante o curso são aplicáveis a diferentes projectos e oferecem uma base sólida para continuar a desenvolver protótipos progressivamente mais complexos."
-  },
-  {
-    "objectID": "index.html#módulos",
-    "href": "index.html#módulos",
-    "title": "Prototipagem assistida por AI para designers",
-    "section": "Módulos",
-    "text": "Módulos\n\n0. Introdução ao curso\nDescrição breve da estrutura, metodologia e objectivos do curso. Duração: 15 min\nNum primeiro momento, gerem-se as expectativas dos alunos relativamente à metodologia utilizada, à estrutura das aulas e à articulação da componente teórica com a componente prática opcional.\n\n\n1. Como escolher um projecto?\nBoas práticas ao definir um projecto para aprendizagem. Introdução ao projecto-demonstração que vai ser usado de exemplo ao longo do curso. Duração: 10 min\nUma segunda introdução foca-se na escolha de um projecto para aprendizagem, de forma a permitir que os alunos possam aplicar os conceitos aprendidos ao longo do curso. Para garantir o sucesso dos alunos e reduzir potencial frustração ao longo da curva de aprendizagem, é fundamental que o projecto escolhido seja contido e adequado ao nível de domínio dos alunos. Para os alunos que não queiram definir o próprio projecto, mas que queiram ainda assim executar a componente prática, poderão replicar o projecto de demonstração usado ao longo do curso: uma aplicação web de previsão meteorológica.\n\n\n2. Ferramentas de prototipagem assistida por IA\nCaracterização de diferentes ferramentas actuais para prototipagem assistida por AI (Figma, v0, Lovable, Cursor). Duração: 45 min Compatível com webinar individual\nEste módulo foca-se no aspecto tecnológico da prototipagem por IA. Começa por introduzir os alunos ao conceito de LLM (large-language model) e elabora sobre o estado da arte em modelos com bom desempenho em geração de código de software. Posteriormente, apresentam-se algumas ferramentas seleccionadas em função dos seus modelos mentais (tradução de design para código ou de texto para código), das possibilidades e limitações. Os alunos são convidados a criar contas de teste e experimentar livremente as diferentes ferramentas.\n\n\n3. Técnicas de prompting e introdução ao MCP\nDiferentes abordagens de prompting e contexto para uma maior eficácia com ferramentas IA Duração: 30 min\nAo explorar as ferramentas introduzidas, vemos que nem sempre obtemos os melhores resultados. Como podemos ser mais efectivos? Neste módulo, exploram-se diferentes técnicas de prompting e introduz-se o conceito de MCP (Model Context Protocol) para melhorar a experiência com estas ferramentas.\n\n\n4. Quando utilizar prototipagem assistida por IA?\nApresentação de aplicações práticas de prototipagem assistida por IA em diferentes momentos do ciclo de desenvolvimento de software Duração: 30 min Compatível com webinar individual\nQue papel pode a prototipagem assistida por IA desempenhar no processo de desenvolvimento de software? Quando e como utilizar estas técnicas e artefactos? Estaremos a assistir à transformação do modelo do triângulo invertido? Neste módulo respondemos a estas questões com exemplos ligados ao projecto de demonstração: (1) prototipagem como artefacto exploratório com Figma, (2) prototipagem como artefacto de validação com Lovable, (3) prototipagem para micro-interacções com Cursor.\n\n\n5. Velocidade vs. progresso\nA importância de definir o problema, definir objectivos e de planear o protótipo. Duração: 20 min\nCom uma gama tão variada de ferramentas disponíveis e um espaço amplo de possibilidades de aplicação, fica claro que é fundamental adaptar o uso destes artefactos ao contexto e fase do projecto. É assim fundamental definir o problema que estamos a procurar resolver, o que pretendemos descobrir e como o protótipo, enquanto artefacto, nos pode ajudar a alcançar esses objectivos. Para efeitos demonstrativos, cria-se um cenário hipotético um designer que procura prototipar uma aplicação web de previsão meteorológica, para utilizar como artefacto de validação.\n\n\n6. Introdução à prototipagem no ambiente de desenvolvimento com Cursor\nComo configurar e utilizar o Cursor para o nosso processo de prototipagem. Duração: 30 min Compatível com webinar individual\nRetomando ao final do módulo 2, mas agora com um plano concreto, os alunos são guiados na instalação, configuração e utilização do IDE Cursor em maior detalhe, com foco nas funcionalidades de (a) agente, (c) regras, (c) planeamento e (d) editor visual. As funcionalidades são apresentadas com contexto prático, enquanto se configura o projecto para o nosso protótipo.\n\n\n7. Introdução a controlo de versão com Git Compatível com webinar individual\nComo manter controlo do nosso progresso? Duração: 15 min\nIntrodução ao conceito de versionamento e como utilizar Git para manter controlo sobre o progresso do projecto. Demonstra-se como criar uma conta de GitHub, iniciar um repositório e fazer operações fundamentais tanto na interface gráfica como no terminal.\n\n\n8. Estrutura e dados\nComo criar a arquitectura da nossa aplicação. Duração: 30 min\nArticulando os conhecimentos até agora adquiridos, cria-se o esqueleto funcional da aplicação com o agente do Cursor, partindo de um mapa de jornada e de alguns designs em Figma previamente preparados. De seguida, demonstra-se como utilizar o mesmo agente para criar data de teste para alimentar a aplicação enquanto desenvolvemos a interface.\n\n\n9. Ligação com o Figma MCP\nComo integrar contexto adicional no nosso processo? Duração: 30 min\nRetomando ao que foi aprendido no módulo 3, demonstra-se como integrar o Figma como fonte adicional de contexto para auxiliar o processo de prototipagem. Guia de instalação com o Cursor e comandos essenciais. Terminamos com uma demonstração prática de como usar o contexto para estilar a aplicação.\n\n\n10. Distribuição para testes com utilizador e partilha em equipa\nComo partilhar o nosso protótipo com outros? Duração: 15 min\nAgora que temos um protótipo funcional, estamos prontos para o partilhar com outros - sejam eles utilizadores de teste, com contexto de testes de usabilidade, sejam colegas ou stakeholders no projecto. Demonstra-se como fazer deployment do protótipo utilizando Vercel. Apresentam-se ainda outras opções como Netlify ou Github Pages, incluindo as suas limitações e aspectos de segurança.\n\n\n11. Considerações de segurança\nComo proteger os nossos dados quando distribuimos um protótipo? Duração: 15 min\nA título principalmente informativo, mas certamente útil, apresentam-se práticas recomendadas de segurança ao distribuir um protótipo, incluindo a gestão de chaves de API, a proteção de dados sensíveis e utilização de varáveis de ambiente com Vercel."
   },
   {
     "objectID": "index.html#desenho-do-curso",
@@ -84,10 +49,108 @@
     "text": "Porquê a escolha do Cursor para o segundo arco?\nNa sua fase de exploração, o curso apresenta aos alunos uma gama de ferramentas e aplicações possíveis de prototipagem assistida por IA. Porquê fechar o ciclo com o Cursor especificamente? No módulo 2 (cf., Estrutura do Curso), apresentam-se diferentes ferramentas em função dos seus modelos mentais, começando pela tradução de design para código, proposta-chave do Figma Make. Já o Cursor tem a particularidade de conjugar input multi-modal (texto, imagens, ligações via MCP, etc.) com manipulação directa do código através do editor visual.\nFecha-se assim o ciclo com uma ferramenta que tem elementos surpreendentemente próximos do Figma Make, mas onde a manipulação directa é feita sobre o código em si, ao invés de elementos vectoriais. Enfatiza-se assim a importância futura de desenvolver maior à vontade com a materialidade do nosso trabalho enquanto designers - o código."
   },
   {
-    "objectID": "index.html#porquê-a-escolha-do-formato-vídeo-on-demand",
-    "href": "index.html#porquê-a-escolha-do-formato-vídeo-on-demand",
+    "objectID": "index.html#introdução-ao-curso",
+    "href": "index.html#introdução-ao-curso",
     "title": "Prototipagem assistida por AI para designers",
-    "section": "Porquê a escolha do formato vídeo on demand",
-    "text": "Porquê a escolha do formato vídeo on demand\nEste é um curso particularmente denso e virado para o desenvolvimento de confiança com novas ferramentas e conceitos. Desta forma, beneficia de ser acompanhado ao ritmo da preferência dos alunos e dando-lhes a possibilidade de rever os conteúdos várias vezes, caso considerem necessário.\nO formato webinar é adequado para porções específicas deste curso. Os módulos que oferecem bons candidatos a estes formatos são acompanhados da tag Compatível com webinar individual."
+    "section": "0. Introdução ao curso",
+    "text": "0. Introdução ao curso\nDescrição breve da estrutura, metodologia e objectivos do curso. Duração: 15 min\nNum primeiro momento, gerem-se as expectativas dos alunos relativamente à metodologia utilizada, à estrutura das aulas e à articulação da componente teórica com a componente prática opcional."
+  },
+  {
+    "objectID": "index.html#como-escolher-um-projecto",
+    "href": "index.html#como-escolher-um-projecto",
+    "title": "Prototipagem assistida por AI para designers",
+    "section": "1. Como escolher um projecto?",
+    "text": "1. Como escolher um projecto?\nBoas práticas ao definir um projecto para aprendizagem. Introdução ao projecto-demonstração que vai ser usado de exemplo ao longo do curso. Duração: 10 min\nUma segunda introdução foca-se na escolha de um projecto para aprendizagem, de forma a permitir que os alunos possam aplicar os conceitos aprendidos ao longo do curso. Para garantir o sucesso dos alunos e reduzir potencial frustração ao longo da curva de aprendizagem, é fundamental que o projecto escolhido seja contido e adequado ao nível de domínio dos alunos. Para os alunos que não queiram definir o próprio projecto, mas que queiram ainda assim executar a componente prática, poderão replicar o projecto de demonstração usado ao longo do curso: uma aplicação web de previsão meteorológica."
+  },
+  {
+    "objectID": "index.html#ferramentas-de-prototipagem-assistida-por-ia",
+    "href": "index.html#ferramentas-de-prototipagem-assistida-por-ia",
+    "title": "Prototipagem assistida por AI para designers",
+    "section": "2. Ferramentas de prototipagem assistida por IA",
+    "text": "2. Ferramentas de prototipagem assistida por IA\nCaracterização de diferentes ferramentas actuais para prototipagem assistida por AI (Figma, v0, Lovable, Cursor). Duração: 45 min Compatível com webinar individual\nEste módulo foca-se no aspecto tecnológico da prototipagem por IA. Começa por introduzir os alunos ao conceito de LLM (large-language model) e elabora sobre o estado da arte em modelos com bom desempenho em geração de código de software. Posteriormente, apresentam-se algumas ferramentas seleccionadas em função dos seus modelos mentais (tradução de design para código ou de texto para código), das possibilidades e limitações. Os alunos são convidados a criar contas de teste e experimentar livremente as diferentes ferramentas."
+  },
+  {
+    "objectID": "index.html#técnicas-de-prompting-e-introdução-ao-mcp",
+    "href": "index.html#técnicas-de-prompting-e-introdução-ao-mcp",
+    "title": "Prototipagem assistida por AI para designers",
+    "section": "3. Técnicas de prompting e introdução ao MCP",
+    "text": "3. Técnicas de prompting e introdução ao MCP\nDiferentes abordagens de prompting e contexto para uma maior eficácia com ferramentas IA. Duração: 30 min\nAo explorar as ferramentas introduzidas, vemos que nem sempre obtemos os melhores resultados. Como podemos ser mais efectivos? Neste módulo, exploram-se diferentes técnicas de prompting e introduz-se o conceito de MCP (Model Context Protocol) para melhorar a experiência com estas ferramentas."
+  },
+  {
+    "objectID": "index.html#quando-utilizar-prototipagem-assistida-por-ia",
+    "href": "index.html#quando-utilizar-prototipagem-assistida-por-ia",
+    "title": "Prototipagem assistida por AI para designers",
+    "section": "4. Quando utilizar prototipagem assistida por IA?",
+    "text": "4. Quando utilizar prototipagem assistida por IA?\nApresentação de aplicações práticas de prototipagem assistida por IA em diferentes momentos do ciclo de desenvolvimento de software. Duração: 30 min Compatível com webinar individual\nQue papel pode a prototipagem assistida por IA desempenhar no processo de desenvolvimento de software? Quando e como utilizar estas técnicas e artefactos? Estaremos a assistir à transformação do modelo do triângulo invertido? Neste módulo respondemos a estas questões com exemplos ligados ao projecto de demonstração: (1) prototipagem como artefacto exploratório com Figma, (2) prototipagem como artefacto de validação com Lovable, (3) prototipagem para micro-interacções com Cursor."
+  },
+  {
+    "objectID": "index.html#velocidade-vs.-progresso",
+    "href": "index.html#velocidade-vs.-progresso",
+    "title": "Prototipagem assistida por AI para designers",
+    "section": "5. Velocidade vs. progresso",
+    "text": "5. Velocidade vs. progresso\nA importância de definir o problema, definir objectivos e de planear o protótipo. Duração: 20 min\nCom uma gama tão variada de ferramentas disponíveis e um espaço amplo de possibilidades de aplicação, fica claro que é fundamental adaptar o uso destes artefactos ao contexto e fase do projecto. É assim fundamental definir o problema que estamos a procurar resolver, o que pretendemos descobrir e como o protótipo, enquanto artefacto, nos pode ajudar a alcançar esses objectivos. Para efeitos demonstrativos, cria-se um cenário hipotético um designer que procura prototipar uma aplicação web de previsão meteorológica, para utilizar como artefacto de validação."
+  },
+  {
+    "objectID": "index.html#introdução-à-prototipagem-no-ambiente-de-desenvolvimento-com-cursor",
+    "href": "index.html#introdução-à-prototipagem-no-ambiente-de-desenvolvimento-com-cursor",
+    "title": "Prototipagem assistida por AI para designers",
+    "section": "6. Introdução à prototipagem no ambiente de desenvolvimento com Cursor",
+    "text": "6. Introdução à prototipagem no ambiente de desenvolvimento com Cursor\nComo configurar e utilizar o Cursor para o nosso processo de prototipagem? Duração: 30 min Compatível com webinar individual\nRetomando ao final do módulo 2, mas agora com um plano concreto, os alunos são guiados na instalação, configuração e utilização do IDE Cursor em maior detalhe, com foco nas funcionalidades de (a) agente, (c) regras, (c) planeamento e (d) editor visual. As funcionalidades são apresentadas com contexto prático, enquanto se configura o projecto para o nosso protótipo."
+  },
+  {
+    "objectID": "index.html#introdução-a-controlo-de-versão-com-git-compatível-com-webinar-individual",
+    "href": "index.html#introdução-a-controlo-de-versão-com-git-compatível-com-webinar-individual",
+    "title": "Prototipagem assistida por AI para designers",
+    "section": "7. Introdução a controlo de versão com Git Compatível com webinar individual",
+    "text": "7. Introdução a controlo de versão com Git Compatível com webinar individual\nComo manter controlo do nosso progresso? Duração: 15 min\nIntrodução ao conceito de versionamento e como utilizar Git para manter controlo sobre o progresso do projecto. Demonstra-se como criar uma conta de GitHub, iniciar um repositório e fazer operações fundamentais tanto na interface gráfica como no terminal."
+  },
+  {
+    "objectID": "index.html#estrutura-e-dados",
+    "href": "index.html#estrutura-e-dados",
+    "title": "Prototipagem assistida por AI para designers",
+    "section": "8. Estrutura e dados",
+    "text": "8. Estrutura e dados\nComo criar a arquitectura da nossa aplicação? Duração: 30 min\nArticulando os conhecimentos até agora adquiridos, cria-se o esqueleto funcional da aplicação com o agente do Cursor, partindo de um mapa de jornada e de alguns designs em Figma previamente preparados. De seguida, demonstra-se como utilizar o mesmo agente para criar data de teste para alimentar a aplicação enquanto desenvolvemos a interface."
+  },
+  {
+    "objectID": "index.html#ligação-com-o-figma-mcp",
+    "href": "index.html#ligação-com-o-figma-mcp",
+    "title": "Prototipagem assistida por AI para designers",
+    "section": "9. Ligação com o Figma MCP",
+    "text": "9. Ligação com o Figma MCP\nComo integrar contexto adicional no nosso processo? Duração: 30 min\nRetomando ao que foi aprendido no módulo 3, demonstra-se como integrar o Figma como fonte adicional de contexto para auxiliar o processo de prototipagem. Guia de instalação com o Cursor e comandos essenciais. Terminamos com uma demonstração prática de como usar o contexto para estilar a aplicação."
+  },
+  {
+    "objectID": "index.html#distribuição-para-testes-com-utilizador-e-partilha-em-equipa",
+    "href": "index.html#distribuição-para-testes-com-utilizador-e-partilha-em-equipa",
+    "title": "Prototipagem assistida por AI para designers",
+    "section": "10. Distribuição para testes com utilizador e partilha em equipa",
+    "text": "10. Distribuição para testes com utilizador e partilha em equipa\nComo partilhar o nosso protótipo com outros? Duração: 15 min\nAgora que temos um protótipo funcional, estamos prontos para o partilhar com outros - sejam eles utilizadores de teste, com contexto de testes de usabilidade, sejam colegas ou stakeholders no projecto. Demonstra-se como fazer deployment do protótipo utilizando Vercel. Apresentam-se ainda outras opções como Netlify ou Github Pages, incluindo as suas limitações e aspectos de segurança."
+  },
+  {
+    "objectID": "index.html#considerações-de-segurança",
+    "href": "index.html#considerações-de-segurança",
+    "title": "Prototipagem assistida por AI para designers",
+    "section": "11. Considerações de segurança",
+    "text": "11. Considerações de segurança\nComo proteger os nossos dados quando distribuimos um protótipo? Duração: 15 min\nA título principalmente informativo, mas certamente útil, apresentam-se práticas recomendadas de segurança ao distribuir um protótipo, incluindo a gestão de chaves de API, a proteção de dados sensíveis e utilização de varáveis de ambiente com Vercel."
+  },
+  {
+    "objectID": "research/notes.html",
+    "href": "research/notes.html",
+    "title": "Design Artifacts Course",
+    "section": "",
+    "text": "Design Artifacts is a genealogy of the growing range of artifacts at the disposal of digital interface designers today - from the simplicity of hand-drawn sketches to AI-assisted prototypes - and how each of them can be leveraged to support the software development process. During this course, we’ll expore how different artifacts facilitate ideation and the communication of ideas and concepts as approximations to the final product.\n\n\n\n\nAn historical perspective to the evolution of design artifacts in digital interface design. We apply a taxonomy to artifacts based on their level of fidelity and control.\n\n\n\nThe most bare-bones artifact in design - the drawing, the gesture and the creative process. Whether on paper or digital form, hand-drawn sketches offer a low barrier to generating a large number of ideas and concepts.\n\n\n\nPerhaps the most malleable means to structure concepts and data structures, supporting abstraction and systems thinking. Explore AI-assisted tools to move from sketching maps, to generating charts in vector and programmatic form.\n\n\n\nBorrowed from software engineering’s Architecture Decision Records (ADR), these capture why you and the team made specific design choices and trade-offs, articulating your strategic thinking. They create organisational memory and offer valuable context for future design decisions and iterations.\n\n\n\nThe last decade saw the proliferation of tools for creating high-fidelity mockups within a multi-player environment, usually in the form of a spatial interface of the infinite canvas. Offering familiar tools to create high fidelity artifacts, they resonated with designers in a shofting industry, where interface designers became a job in high demand. Whilst Figma became the de facto standard for this type of artifact, we will also become familiar with some of its competitors, incluidng open source alternatives.\n\n\n\nWhile Figma Design offers the highest control for designers to develop high-fidelity mocks, it remains a vector-based design tool. the Explore how the evolving tools available for AI-assisted prototyping can be used to validate concepts and to refine experience details hand-in-hand with the development teams.\nAI-assisted tools and practices:\n\nA comparative analysis of current tools (Figma Make, Lovable, Irvin, v0, Replit, Windsurf, Cursor, Claude Code)\nMCP and context strategies\nPrompt libraries and repositories (???)\nVersion control: Git basics (???)\n\nBy stage of the design process:\n\nAs a ideation tool\nAs a validation tool\nAs a craft tool\n\nApplications:\n\nPrototyping complex input (search, drawing)\nHandling complex mock-data (tables, sorting and filtering)\nPrototyping states, data fetching and transitions\nCreating expressive animations"
+  },
+  {
+    "objectID": "research/notes.html#introduction",
+    "href": "research/notes.html#introduction",
+    "title": "Design Artifacts Course",
+    "section": "",
+    "text": "Design Artifacts is a genealogy of the growing range of artifacts at the disposal of digital interface designers today - from the simplicity of hand-drawn sketches to AI-assisted prototypes - and how each of them can be leveraged to support the software development process. During this course, we’ll expore how different artifacts facilitate ideation and the communication of ideas and concepts as approximations to the final product.\n\n\n\n\nAn historical perspective to the evolution of design artifacts in digital interface design. We apply a taxonomy to artifacts based on their level of fidelity and control.\n\n\n\nThe most bare-bones artifact in design - the drawing, the gesture and the creative process. Whether on paper or digital form, hand-drawn sketches offer a low barrier to generating a large number of ideas and concepts.\n\n\n\nPerhaps the most malleable means to structure concepts and data structures, supporting abstraction and systems thinking. Explore AI-assisted tools to move from sketching maps, to generating charts in vector and programmatic form.\n\n\n\nBorrowed from software engineering’s Architecture Decision Records (ADR), these capture why you and the team made specific design choices and trade-offs, articulating your strategic thinking. They create organisational memory and offer valuable context for future design decisions and iterations.\n\n\n\nThe last decade saw the proliferation of tools for creating high-fidelity mockups within a multi-player environment, usually in the form of a spatial interface of the infinite canvas. Offering familiar tools to create high fidelity artifacts, they resonated with designers in a shofting industry, where interface designers became a job in high demand. Whilst Figma became the de facto standard for this type of artifact, we will also become familiar with some of its competitors, incluidng open source alternatives.\n\n\n\nWhile Figma Design offers the highest control for designers to develop high-fidelity mocks, it remains a vector-based design tool. the Explore how the evolving tools available for AI-assisted prototyping can be used to validate concepts and to refine experience details hand-in-hand with the development teams.\nAI-assisted tools and practices:\n\nA comparative analysis of current tools (Figma Make, Lovable, Irvin, v0, Replit, Windsurf, Cursor, Claude Code)\nMCP and context strategies\nPrompt libraries and repositories (???)\nVersion control: Git basics (???)\n\nBy stage of the design process:\n\nAs a ideation tool\nAs a validation tool\nAs a craft tool\n\nApplications:\n\nPrototyping complex input (search, drawing)\nHandling complex mock-data (tables, sorting and filtering)\nPrototyping states, data fetching and transitions\nCreating expressive animations"
+  },
+  {
+    "objectID": "index.html#introdução-a-controlo-de-versão-com-git",
+    "href": "index.html#introdução-a-controlo-de-versão-com-git",
+    "title": "Prototipagem assistida por AI para designers",
+    "section": "7. Introdução a controlo de versão com Git",
+    "text": "7. Introdução a controlo de versão com Git\nComo manter controlo do nosso progresso? Duração: 15 min Compatível com webinar individual\nIntrodução ao conceito de versionamento e como utilizar Git para manter controlo sobre o progresso do projecto. Demonstra-se como criar uma conta de GitHub, iniciar um repositório e fazer operações fundamentais tanto na interface gráfica como no terminal."
   }
 ]

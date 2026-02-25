@@ -1,1 +1,371 @@
-/* css styles */
+
+/* ============================================
+   CSS CUSTOM PROPERTIES (Design Tokens)
+   ============================================ */
+:root {
+  /* Colors - Dark Theme */
+  --background-color: #0a0a0a;
+  --background-color-hover: #1a1a1a;
+  --background-hover-color: #151515;
+  --surface-color: #1a1a1a;
+  --border-color: #2a2a2a;
+  --border-color-light: #252525;
+  --border-color-lighter: #303030;
+  
+  /* Text Colors - Light on Dark */
+  --primary-text-color: #f5f5f5;
+  --secondary-text-color: #b4b4b4;
+  --tertiary-text-color: #aaaaaa;
+  
+  /* Accent Color */
+  --accent-color: #a5a3f7;
+  --accent-color-background: #151437;
+  --accent-color-hover: #c0c0f4;
+  
+  /* Spacing System */
+  --spacer-xxsm: 0.25rem;   /* 4px */
+  --spacer-xsm: 0.5rem;      /* 8px */
+  --spacer-sm: 0.75rem;      /* 12px */
+  --spacer-md: 1rem;         /* 16px */
+  --spacer-lg: 1.5rem;       /* 24px */
+  --spacer-xlg: 2rem;        /* 32px */
+  --spacer-xxlg: 3rem;       /* 48px */
+  
+  /* Border Radius */
+  --border-xs: 0.25rem;
+  --border-sm: 0.375rem;
+  --border-md: 0.5rem;
+  --border-lg: 0.75rem;
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 300;
+  line-height: 1.6;
+  color: var(--secondary-text-color);
+  background-color: var(--background-color);
+}
+
+/* Headings use Inter font */
+h1, h2, h3, h4, h5, h6,
+.title {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  color: var(--primary-text-color);
+  margin-top: var(--spacer-xxlg);
+  margin-bottom: var(--spacer-xsm);
+  border-bottom: none !important;
+}
+
+h1, .title {
+  font-size: 1.6rem;
+  margin-top: var(--spacer-xlg);
+}
+
+h2 {
+  font-size: 1rem;
+  margin-top: var(--spacer-xlg);
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+h4 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Monospace for code and metadata */
+code, pre, .mono {
+  font-family: 'JetBrains Mono', 'Courier New', monospace;
+  font-size: 0.875rem;
+}
+
+/* ============================================
+   LAYOUT & CONTAINERS
+   ============================================ */
+
+/* Fixed sidebar layout */
+#quarto-margin-sidebar {
+  position: fixed !important;
+  left: 0 !important;
+  height: 100vh !important;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  padding: var(--spacer-xlg) var(--spacer-md) !important;
+  box-sizing: border-box !important;
+}
+
+.sidebar-navigation {
+  position: fixed !important;
+  padding-top: 32px !important;
+  width: 380px !important;
+  max-width: 380px !important;
+  overflow-x: hidden !important;
+  box-sizing: border-box !important;
+}
+
+#TOC {
+  max-width: 100% !important;
+  overflow-wrap: break-word !important;
+  word-wrap: break-word !important;
+}
+
+#quarto-content,
+.page-columns {
+  padding: var(--spacer-md);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main,
+.quarto-container {
+  margin-left: 120px !important;
+  max-width: 1800px !important;
+}
+
+.quarto-title-block {
+  margin-bottom: var(--spacer-xxlg);
+  padding-bottom: var(--spacer-lg);
+}
+
+/* ============================================
+   TABLES
+   ============================================ */
+
+table {
+  width: 100%;
+  margin-top: var(--spacer-lg) !important;
+  border: 1px solid var(--border-color) !important;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  border-radius: var(--border-md);
+  overflow: hidden;
+  background-color: var(--background-color);
+  font-size: 0.8rem !important;
+}
+
+thead {
+  background-color: var(--surface-color);
+}
+
+th {
+  text-align: left;
+  padding: var(--spacer-sm) var(--spacer-md);
+  font-weight: 400;
+  border-bottom: 1px solid var(--border-color);
+  color: var(--primary-text-color);
+  font-size: 0.7rem !important;
+}
+
+td {
+  padding: var(--spacer-sm) var(--spacer-md);
+  border-bottom: 1px solid var(--border-color-light);
+  vertical-align: top;
+}
+
+tr:hover {
+  background-color: var(--background-color-hover);
+  transition: background-color 0.2s ease;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+/* ============================================
+   LINKS
+   ============================================ */
+
+a {
+  color: var(--accent-color);
+  text-decoration: underline;
+  text-decoration-color: var(--border-color-light);
+  text-underline-offset: 0.2em;
+  transition: all 0.25s ease-out;
+}
+
+a:hover {
+  color: var(--accent-color-hover);
+  text-decoration-color: var(--accent-color-hover);
+  transition: all 0.25s ease-out;
+}
+
+/* ============================================
+   TABLE OF CONTENTS
+   ============================================ */
+
+/* Sidebar container */
+.sidebar,
+.sidebar-navigation,
+#quarto-margin-sidebar,
+.quarto-sidebar-section {
+  background-color: transparent !important;
+  padding-right: var(--spacer-lg) !important;
+}
+
+/* Hide TOC title */
+#TOC .toc-title,
+#toc-title,
+.sidebar-title {
+  display: none !important;
+}
+
+#TOC {
+  background-color: transparent;
+  border: none;
+  padding: var(--spacer-md);
+}
+
+#TOC ul {
+  list-style: none;
+  padding-left: var(--spacer-sm);
+  border-left: none !important;
+}
+
+#TOC li {
+  margin-top: var(--spacer-xsm);
+  border-left: none !important;
+}
+
+#TOC a {
+  text-decoration: none;
+  color: var(--secondary-text-color);
+  font-size: 0.8rem;
+  border-left: none !important;
+}
+
+#TOC a:hover {
+  color: var(--accent-color-hover) !important;
+}
+
+#TOC .active {
+  color: var(--accent-color) !important;
+  font-weight: 500;
+}
+
+/* ============================================
+   CODE BLOCKS
+   ============================================ */
+
+pre {
+  background-color: var(--accent-color-background);
+  border: 1px solid var(--border-color) !important;
+  border-radius: var(--border-md) !important;
+  padding: var(--spacer-md) !important;
+  overflow-x: auto;
+  margin: var(--spacer-md) 0;
+}
+
+code {
+  background-color: var(--accent-color-background) !important;
+  color: var(--accent-color) !important;
+  padding: var(--spacer-xxsm) var(--spacer-xsm) !important;
+  border-radius: var(--border-xs) !important;
+  font-size: 0.85em !important;
+}
+
+pre code {
+  background: #1d1c1c !important;
+  color: var(--accent-color) !important;
+  padding: 0 !important;
+}
+
+/* ============================================
+   BLOCKQUOTES
+   ============================================ */
+
+blockquote {
+  border-left: 4px solid var(--border-color-light);
+  padding-left: var(--spacer-md);
+  margin: var(--spacer-lg) 0;
+  font-style: italic;
+  color: var(--secondary-text-color);
+}
+
+/* ============================================
+   LISTS
+   ============================================ */
+
+ul, ol {
+  margin-bottom: var(--spacer-md);
+  padding-left: var(--spacer-lg);
+}
+
+li {
+  margin-bottom: var(--spacer-xsm);
+  line-height: 1.7;
+}
+
+/* ============================================
+   PARAGRAPHS
+   ============================================ */
+
+p {
+  margin-bottom: var(--spacer-md);
+  line-height: 1.7;
+}
+
+/* ============================================
+   RESPONSIVE DESIGN
+   ============================================ */
+
+@media screen and (max-width: 768px) {
+  h1, .title {
+    font-size: 1.75rem;
+  }
+  
+  h2 {
+    font-size: 1.35rem;
+  }
+  
+  h3 {
+    font-size: 1.125rem;
+  }
+  
+  #quarto-content {
+    padding: var(--spacer-md);
+  }
+  
+  table {
+    font-size: 0.9rem;
+  }
+  
+  th, td {
+    padding: var(--spacer-xsm) var(--spacer-sm);
+  }
+}
+
+/* ============================================
+   UTILITY CLASSES
+   ============================================ */
+
+.mono {
+  font-family: 'JetBrains Mono', 'Courier New', monospace;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--secondary-text-color);
+}
+
+.text-secondary {
+  color: var(--secondary-text-color);
+}
+
+.text-tertiary {
+  color: var(--tertiary-text-color);
+}
