@@ -5,10 +5,11 @@
    
 :root {
   /* Colors - Dark Theme */
-  --background-color: #110c07;
-  --background-color-hover: #1a150f;
-  --background-hover-color: #15110b;
-  --surface-color: #1a150f;
+  --background-color: #18120d;
+  --background-color-dark: #0c0a09;
+  --background-gradient: linear-gradient(to bottom, var(--background-color) 0%, var(--background-color) 30%, var(--background-color-dark) 100%);
+  --surface-color: #18130c;
+  --surface-color-dark: rgba(12, 10, 9, 0.404);
   --border-color: #2a251d;
   --border-color-light: #252018;
   --border-color-lighter: #302b22;
@@ -63,13 +64,30 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+html {
+  scroll-behavior: smooth;
+  background-color: var(--background-color-dark);
+}
+
 body {
   font-family: 'Inter Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-size: 0.85rem;
   font-weight: 300;
   line-height: 1.6;
   color: var(--secondary-text-color);
-  background-color: var(--background-color);
+  background: transparent;
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  background: var(--background-gradient);
+  z-index: -1;
 }
 
 /* Headings use custom font */
@@ -184,7 +202,7 @@ table {
   border-spacing: 0 !important;
   border-radius: var(--border-md);
   overflow: hidden;
-  background-color: var(--background-color);
+  background-color: var(--surface-color-dark);
   font-size: 0.8rem !important;
 }
 
@@ -390,6 +408,22 @@ p {
   th, td {
     padding: var(--spacer-xsm) var(--spacer-sm);
   }
+}
+
+/* ============================================
+   BOTTOM GRADIENT OVERLAY
+   ============================================ */
+
+body::after {
+  content: '';
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 200px;
+  background: linear-gradient(to top, var(--background-color-dark), transparent);
+  pointer-events: none;
+  z-index: 1000;
 }
 
 /* ============================================
