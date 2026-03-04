@@ -159,4 +159,4 @@ A título principalmente informativo, mas certamente útil, apresentam-se práti
 [Prompting Guide Techniques](https://www.promptingguide.ai/techniques)
 [Weaviate Academy Learning Paths](https://academy.weaviate.io/paths) 
 [Chaparral CLI Skills Cross-org](https://github.com/Manzanita-Research/chaparral) 
--->
+4-->
