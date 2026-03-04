@@ -83,10 +83,8 @@ Acompanhamento de projecto síncrono, cobrindo perguntas frequentes ou temas de 
 
 
 <!-- # Referências
-
 [Beyond Vibe Coding](https://www.ericli.io/writing/beyond-vibe-coding)
 [Prompting Guide Techniques](https://www.promptingguide.ai/techniques)
 [Weaviate Academy Learning Paths](https://academy.weaviate.io/paths) 
 [Chaparral CLI Skills Cross-org](https://github.com/Manzanita-Research/chaparral)
-
 -->
