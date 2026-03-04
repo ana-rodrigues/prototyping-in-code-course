@@ -1,5 +1,5 @@
 ---
-title: "Prototipagem em código para designers"
+title: "Prototipagem em código"
 
 format:
   html:
